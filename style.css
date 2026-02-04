@@ -1,0 +1,66 @@
+/* the styles for the HTML elements */
+
+
+header {
+    background-color:#DEB887; 
+    height:10%;
+}
+
+nav {
+    background-color:#008B8B;
+    width:20%;
+    height:40%;
+    float:left;
+    color: rgba(255, 255, 255, 0.555);
+    padding: 20px 20px;
+    margin-right: 20px;
+}
+
+main {
+    background-color:#00eeee;
+    height: 80%;
+    padding: 20px;
+}
+
+footer {
+    background-color:#be8d44;
+    clear:both;
+    height:10%;
+}
+
+header h1 {
+    color: dimgray;
+}
+
+body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #15adb3, #099780);
+    color: white;
+}
+
+#countdown {
+    background: rgba(68, 235, 118, 0.555);
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgb(59, 60, 117);
+    text-align: center;
+    width: 40%;
+    margin-left: 25%;
+}
+
+#timer {
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+.timer-unit {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    display: inline;
+}
